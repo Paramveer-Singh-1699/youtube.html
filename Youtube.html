@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com Clone</title>
+<!-- comment -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <style type="text/css">
+            a {text-decoration: none; 
+            color: black;}
+        </style> 
+
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/header-icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/header-icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" 
+                placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/header-icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/header-icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/header-icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/header-icons/youtube-apps.svg">
+                    <div class="tooltip">Youtube apps</div>
+                </div>   
+                <div class="notifications-icon-container">
+                        <img class="notifications-icon" src="icons/header-icons/notifications.svg">
+                        <div class="tooltip">Notifications</div>
+                    <div class="notifications-icon-count">3</div>
+                    
+                </div>
+                
+                <img class="current-user-picture" src="channel-profile/my-channel-profile.jpg">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/sidebar-icon-home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/youtube-music.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar-icons/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+
+        <div class="video-grid">
+            <div class="video-preview" style="cursor: pointer;">
+                <a href="https://youtu.be/G3e-cpL7ofc?si=5Uj-MUv8Yb5hSpqZ">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-1.webp ">
+                        <div class="video-time">
+                            6:31:23
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-1.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                HTML & CSS Full Course - Beginner to Pro
+                            </p>
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                            <p class="video-stats">
+                                10M &#183; 2 years ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="video-preview">
+                <a href="https://youtu.be/GeCovIWW794?si=7CC361p3i3COdkCV">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-2.jpg ">
+                        <div class="video-time">
+                            4:22
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-2.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Karam - Rangle Sardar & When Chai Met Toast | Equals Sessions - Episode 2
+                            </p>
+                            <p class="video-author">
+                                Anahad Foundation
+                            </p>
+                            <p class="video-stats">
+                                2.5M &#183; 4 years ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-preview">
+                <a href="https://youtu.be/gyY5jvX7yf4?si=JGsXZt8xU1N-0IJ-">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-3.webp ">
+                        <div class="video-time">
+                            1:56:28
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-3.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                RABB DA RADIO - Full Movie 2017 | Tarsem Jassar, Mandy Takher & Simi Chahal | Punjabi Movie 2017
+                            </p>
+                            <p class="video-author">
+                                Kumar Films
+                            </p>
+                            <p class="video-stats">
+                                46M &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="video-preview">
+                <a href="https://youtu.be/3HBkKtw8muk?si=cmdayCPsIfrvHWsw">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.webp ">
+                        <div class="video-time">
+                            3:59
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-4.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Happy Happy | Teshan | Happy Raikoti | Diljott | Releasing on 23 September
+                            </p>
+                            <p class="video-author">
+                                Ishtar Punjabi
+                            </p>
+                            <p class="video-stats">
+                                3.5M &#183; 7 years ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-preview">
+                <a href="https://youtu.be/lFqxenB9CX8?si=INVFFYvnbufqwP9p">
+                    <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-5.webp ">
+                    <div class="video-time">
+                        17:02
+                    </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-5.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                50+ LPA Roadmap | ezSnippet | Neeraj Walia
+                            </p>
+                            <p class="video-author">
+                                Neeraj Walia
+                            </p>
+                            <p class="video-stats">
+                                935K views &#183; 4 months ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="video-preview">
+                <a href="https://youtu.be/Ez8F0nW6S-w?si=XysGSXl4vTubLibd">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.webp ">
+                        <div class="video-time">
+                            4:16
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-6.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Silk Route - Sab se peeche hum khade
+                            </p>
+                            <p class="video-author">
+                                Zoheb Rafai
+                            </p>
+                            <p class="video-stats">
+                                6.6 &#183; 13 years ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="video-preview">
+                <a href="https://youtu.be/CEq4WvmNqT4?si=lOUyoQECt1C13YBK">
+                    <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-7.webp ">
+                    <div class="video-time">
+                        1:15:22
+                    </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-7.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Complete Git and Github Tutorial for Beginners
+                            </p>
+                            <p class="video-author">
+                                Apna College
+                            </p>
+                            <p class="video-stats">
+                                2.1M views &#183; 9 months ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-preview">
+                <a href="https://youtu.be/lFqxenB9CX8?si=INVFFYvnbufqwP9p">
+                    <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-8.webp ">
+                    <div class="video-time">
+                        2:31
+                    </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-8.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                [Lyrics]Tu Hi Bataa - @Suzonn &times; @Pinlifemusicrecord Love song
+                            </p>
+                            <p class="video-author">
+                                Pinlife music Record &#119136;
+                            </p>
+                            <p class="video-stats">
+                                309K views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-preview">
+                <a href="https://youtu.be/uNFGn3BUygg?si=6Cckr0Xk0EYJjv4_">
+                    <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-9.webp ">
+                    <div class="video-time">
+                        2:31
+                    </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-9.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Kiska Easta Dekhe - Kishore Kumar (Reverb)
+                            </p>
+                            <p class="video-author">
+                                VG CREATION
+                            </p>
+                            <p class="video-stats">
+                                385K views &#183; 11 months ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-preview">
+                <a href="https://youtu.be/q7Uqpc66UsE?si=513XCkfddAdE_r4_">
+                    <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-10.webp ">
+                    <div class="video-time">
+                        6:40
+                    </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-profile/channel-profile-10.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                28 days ABS Challenge. The #1 Method To Get Abs
+                            </p>
+                            <p class="video-author">
+                                NEXT Workout 
+                            </p>
+                            <p class="video-stats">
+                                24K views &#183; 2 weeks ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-preview">
+                <a href="https://youtu.be/SrpCkqrsSuY?si=5mp6x9x5JBtUX3lR">
+                    <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-11.webp ">
+                    <div class="video-time">
+                        1:34:46
+                    </div>
+                    </div>
+                    <div class="video-info-grid">               
+                        <div class="channel-picture">
+                            <a href="http://www.youtube.com/@nightgazeee">                
+                            <img class="profile-picture" src="channel-profile/channel-profile-11.jpg">
+                            </a>
+                        </div>                     
+                        <div class="video-info">
+                            <p class="video-title">
+                                3 am and you can't stop thinking about them (playlist)
+                            </p>
+                            <p class="video-author">
+                                <a href="http://www.youtube.com/@nightgazeee">
+                                    night gaze
+                                </a>
+                            </p>
+                            <p class="video-stats">
+                                2M views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
